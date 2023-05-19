@@ -37,3 +37,7 @@ e2e Folder - This Folder contains the main scripts
 - Variables.
 
 fixtures Folder - This Folder contains Test Data.
+
+##### Note
+
+Incase of any errors while running the test, Please clear cookies, close the chrome tab and try running the test again.
