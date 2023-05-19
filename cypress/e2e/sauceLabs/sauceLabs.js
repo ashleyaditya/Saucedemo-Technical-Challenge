@@ -31,10 +31,8 @@ Then("I should see an error message", () => {
 When("I add products to cart", () => {
   cy.fixture("products.json").then((products) => {
     products.forEach((product) => {
-      const convertedString = product.productName
-        .toLowerCase()
-        .replace(/\s+/g, "-")
-      cy.get(`[data-test=add-to-cart-${convertedString}]`).click()
+      const item = product.productName.toLowerCase().replace(/\s+/g, "-")
+      cy.get(`[data-test=add-to-cart-${item}]`).click()
     })
   })
 })
