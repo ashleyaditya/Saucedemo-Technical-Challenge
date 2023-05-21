@@ -15,7 +15,7 @@ To get started, simply follow these simple steps to execute / modify the scripts
 
 ##### 1. Clone the repository
 
-git clone https://github.com/ashleyaditya/saucedemo.git
+git clone https://github.com/ashleyaditya/Saucedemo-Technical-Challenge.git
 cd repo-name
 
 ##### 2. Install node packages
